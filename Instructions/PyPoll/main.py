@@ -11,6 +11,7 @@ file = 'Resources\election_data.csv'
 df = pd.read_csv(file, encoding="ISO-8859-1")
 
 # Preview of the DataFrame
+#
 # Note that FIELD8 is likely a meaningless column
 df.head()
 
